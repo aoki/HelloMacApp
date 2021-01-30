@@ -13,6 +13,7 @@
 		EDD99A4E25C52ECB005EA028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD99A4D25C52ECB005EA028 /* Preview Assets.xcassets */; };
 		EDD99A5A25C52ECC005EA028 /* HelloMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A5925C52ECC005EA028 /* HelloMacAppTests.swift */; };
 		EDD99A6525C52ECC005EA028 /* HelloMacAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A6425C52ECC005EA028 /* HelloMacAppUITests.swift */; };
+		EDD99A8125C542F6005EA028 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A8025C542F6005EA028 /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EDD99A6025C52ECC005EA028 /* HelloMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD99A6425C52ECC005EA028 /* HelloMacAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacAppUITests.swift; sourceTree = "<group>"; };
 		EDD99A6625C52ECC005EA028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD99A8025C542F6005EA028 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				EDD99A4625C52EC9005EA028 /* HelloMacAppApp.swift */,
 				EDD99A4825C52EC9005EA028 /* ContentView.swift */,
 				EDD99A4A25C52ECB005EA028 /* Assets.xcassets */,
+				EDD99A8025C542F6005EA028 /* Sidebar.swift */,
 				EDD99A4F25C52ECB005EA028 /* Info.plist */,
 				EDD99A5025C52ECB005EA028 /* HelloMacApp.entitlements */,
 				EDD99A4C25C52ECB005EA028 /* Preview Content */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD99A4925C52EC9005EA028 /* ContentView.swift in Sources */,
+				EDD99A8125C542F6005EA028 /* Sidebar.swift in Sources */,
 				EDD99A4725C52EC9005EA028 /* HelloMacAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
