@@ -9,9 +9,12 @@ struct Sidebar: View {
         // サイドバーにメニューを実装
         // @see https://ja.ojit.com/so/swift/1499290
         List(selection: $selection) {
-            Section(header: Text("Menu List")) {
-                ForEach(names, id: \.self) { name in
-                    Text(name)
+            Section() {
+                NavigationLink(destination: MainView()) {
+                    Label("Main", systemImage: "house.fill")
+                }
+                NavigationLink(destination: CounterView()) {
+                    Label("Counter", systemImage: "number")
                 }
             }
         }.listStyle(SidebarListStyle())
