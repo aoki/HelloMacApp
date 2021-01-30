@@ -1,5 +1,10 @@
 import SwiftUI
 
+// バージョンとビルド番号を取得
+// @see https://qiita.com/Riscait/items/b57c21678025cf8d9367
+let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
+
 struct ContentView: View {
     
     @State var count: Int = 0
@@ -9,14 +14,16 @@ struct ContentView: View {
     }
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-        HStack {
-            Text("\(count)")
-            Button(action: {self.countUp()}) {
-                Text("Count Up")
+        VStack {
+            Label("Version: \(version), Build: \(build)", systemImage: "bolt.fill")
+            Text("Hello, world!").padding()
+            HStack {
+                Text("\(count)")
+                Button(action: {self.countUp()}) {
+                    Text("Count Up")
+                }
             }
-        }.padding(.bottom)
+        }.padding()
     }
 }
 
