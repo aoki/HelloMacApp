@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD99A4725C52EC9005EA028 /* HelloMacAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A4625C52EC9005EA028 /* HelloMacAppApp.swift */; };
+		EDD99A4925C52EC9005EA028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A4825C52EC9005EA028 /* ContentView.swift */; };
+		EDD99A4B25C52ECB005EA028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD99A4A25C52ECB005EA028 /* Assets.xcassets */; };
+		EDD99A4E25C52ECB005EA028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD99A4D25C52ECB005EA028 /* Preview Assets.xcassets */; };
+		EDD99A5A25C52ECC005EA028 /* HelloMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A5925C52ECC005EA028 /* HelloMacAppTests.swift */; };
+		EDD99A6525C52ECC005EA028 /* HelloMacAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD99A6425C52ECC005EA028 /* HelloMacAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD99A5625C52ECB005EA028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD99A3B25C52EC9005EA028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD99A4225C52EC9005EA028;
+			remoteInfo = HelloMacApp;
+		};
+		EDD99A6125C52ECC005EA028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD99A3B25C52EC9005EA028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD99A4225C52EC9005EA028;
+			remoteInfo = HelloMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD99A4325C52EC9005EA028 /* HelloMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD99A4625C52EC9005EA028 /* HelloMacAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacAppApp.swift; sourceTree = "<group>"; };
+		EDD99A4825C52EC9005EA028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDD99A4A25C52ECB005EA028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD99A4D25C52ECB005EA028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD99A4F25C52ECB005EA028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD99A5025C52ECB005EA028 /* HelloMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloMacApp.entitlements; sourceTree = "<group>"; };
+		EDD99A5525C52ECB005EA028 /* HelloMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD99A5925C52ECC005EA028 /* HelloMacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacAppTests.swift; sourceTree = "<group>"; };
+		EDD99A5B25C52ECC005EA028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD99A6025C52ECC005EA028 /* HelloMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD99A6425C52ECC005EA028 /* HelloMacAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacAppUITests.swift; sourceTree = "<group>"; };
+		EDD99A6625C52ECC005EA028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD99A4025C52EC9005EA028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5225C52ECB005EA028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5D25C52ECC005EA028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD99A3A25C52EC9005EA028 = {
+			isa = PBXGroup;
+			children = (
+				EDD99A4525C52EC9005EA028 /* HelloMacApp */,
+				EDD99A5825C52ECB005EA028 /* HelloMacAppTests */,
+				EDD99A6325C52ECC005EA028 /* HelloMacAppUITests */,
+				EDD99A4425C52EC9005EA028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD99A4425C52EC9005EA028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD99A4325C52EC9005EA028 /* HelloMacApp.app */,
+				EDD99A5525C52ECB005EA028 /* HelloMacAppTests.xctest */,
+				EDD99A6025C52ECC005EA028 /* HelloMacAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD99A4525C52EC9005EA028 /* HelloMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				EDD99A4625C52EC9005EA028 /* HelloMacAppApp.swift */,
+				EDD99A4825C52EC9005EA028 /* ContentView.swift */,
+				EDD99A4A25C52ECB005EA028 /* Assets.xcassets */,
+				EDD99A4F25C52ECB005EA028 /* Info.plist */,
+				EDD99A5025C52ECB005EA028 /* HelloMacApp.entitlements */,
+				EDD99A4C25C52ECB005EA028 /* Preview Content */,
+			);
+			path = HelloMacApp;
+			sourceTree = "<group>";
+		};
+		EDD99A4C25C52ECB005EA028 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDD99A4D25C52ECB005EA028 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD99A5825C52ECB005EA028 /* HelloMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD99A5925C52ECC005EA028 /* HelloMacAppTests.swift */,
+				EDD99A5B25C52ECC005EA028 /* Info.plist */,
+			);
+			path = HelloMacAppTests;
+			sourceTree = "<group>";
+		};
+		EDD99A6325C52ECC005EA028 /* HelloMacAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD99A6425C52ECC005EA028 /* HelloMacAppUITests.swift */,
+				EDD99A6625C52ECC005EA028 /* Info.plist */,
+			);
+			path = HelloMacAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD99A4225C52EC9005EA028 /* HelloMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD99A6925C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacApp" */;
+			buildPhases = (
+				EDD99A3F25C52EC9005EA028 /* Sources */,
+				EDD99A4025C52EC9005EA028 /* Frameworks */,
+				EDD99A4125C52EC9005EA028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMacApp;
+			productName = HelloMacApp;
+			productReference = EDD99A4325C52EC9005EA028 /* HelloMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD99A5425C52ECB005EA028 /* HelloMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD99A6C25C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacAppTests" */;
+			buildPhases = (
+				EDD99A5125C52ECB005EA028 /* Sources */,
+				EDD99A5225C52ECB005EA028 /* Frameworks */,
+				EDD99A5325C52ECB005EA028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD99A5725C52ECB005EA028 /* PBXTargetDependency */,
+			);
+			name = HelloMacAppTests;
+			productName = HelloMacAppTests;
+			productReference = EDD99A5525C52ECB005EA028 /* HelloMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD99A5F25C52ECC005EA028 /* HelloMacAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD99A6F25C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacAppUITests" */;
+			buildPhases = (
+				EDD99A5C25C52ECC005EA028 /* Sources */,
+				EDD99A5D25C52ECC005EA028 /* Frameworks */,
+				EDD99A5E25C52ECC005EA028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD99A6225C52ECC005EA028 /* PBXTargetDependency */,
+			);
+			name = HelloMacAppUITests;
+			productName = HelloMacAppUITests;
+			productReference = EDD99A6025C52ECC005EA028 /* HelloMacAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD99A3B25C52EC9005EA028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EDD99A4225C52EC9005EA028 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EDD99A5425C52ECB005EA028 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD99A4225C52EC9005EA028;
+					};
+					EDD99A5F25C52ECC005EA028 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD99A4225C52EC9005EA028;
+					};
+				};
+			};
+			buildConfigurationList = EDD99A3E25C52EC9005EA028 /* Build configuration list for PBXProject "HelloMacApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD99A3A25C52EC9005EA028;
+			productRefGroup = EDD99A4425C52EC9005EA028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD99A4225C52EC9005EA028 /* HelloMacApp */,
+				EDD99A5425C52ECB005EA028 /* HelloMacAppTests */,
+				EDD99A5F25C52ECC005EA028 /* HelloMacAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD99A4125C52EC9005EA028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD99A4E25C52ECB005EA028 /* Preview Assets.xcassets in Resources */,
+				EDD99A4B25C52ECB005EA028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5325C52ECB005EA028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5E25C52ECC005EA028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD99A3F25C52EC9005EA028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD99A4925C52EC9005EA028 /* ContentView.swift in Sources */,
+				EDD99A4725C52EC9005EA028 /* HelloMacAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5125C52ECB005EA028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD99A5A25C52ECC005EA028 /* HelloMacAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD99A5C25C52ECC005EA028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD99A6525C52ECC005EA028 /* HelloMacAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD99A5725C52ECB005EA028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD99A4225C52EC9005EA028 /* HelloMacApp */;
+			targetProxy = EDD99A5625C52ECB005EA028 /* PBXContainerItemProxy */;
+		};
+		EDD99A6225C52ECC005EA028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD99A4225C52EC9005EA028 /* HelloMacApp */;
+			targetProxy = EDD99A6125C52ECC005EA028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDD99A6725C52ECC005EA028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD99A6825C52ECC005EA028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDD99A6A25C52ECC005EA028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloMacApp/HelloMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloMacApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDD99A6B25C52ECC005EA028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloMacApp/HelloMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloMacApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EDD99A6D25C52ECC005EA028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				INFOPLIST_FILE = HelloMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMacApp.app/Contents/MacOS/HelloMacApp";
+			};
+			name = Debug;
+		};
+		EDD99A6E25C52ECC005EA028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				INFOPLIST_FILE = HelloMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMacApp.app/Contents/MacOS/HelloMacApp";
+			};
+			name = Release;
+		};
+		EDD99A7025C52ECC005EA028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				INFOPLIST_FILE = HelloMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloMacApp;
+			};
+			name = Debug;
+		};
+		EDD99A7125C52ECC005EA028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7P8RHJUUCL;
+				INFOPLIST_FILE = HelloMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aoki.mac.app.HelloMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloMacApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD99A3E25C52EC9005EA028 /* Build configuration list for PBXProject "HelloMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD99A6725C52ECC005EA028 /* Debug */,
+				EDD99A6825C52ECC005EA028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD99A6925C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD99A6A25C52ECC005EA028 /* Debug */,
+				EDD99A6B25C52ECC005EA028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD99A6C25C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD99A6D25C52ECC005EA028 /* Debug */,
+				EDD99A6E25C52ECC005EA028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD99A6F25C52ECC005EA028 /* Build configuration list for PBXNativeTarget "HelloMacAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD99A7025C52ECC005EA028 /* Debug */,
+				EDD99A7125C52ECC005EA028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD99A3B25C52EC9005EA028 /* Project object */;
+}
